@@ -82,7 +82,7 @@ const PROJECTS = [
   { name: "Santiago Serrano Verduzco", contribution: "Part of manufacturing crew" },
   { name: "Sergio Dávila Trejo", contribution: "Part of manufacturing crew" }
 ],
-    gallery: ["assets/Recumbent/Rec_Dec_1.png", "assets/Recumbent/Rec_Dec_2.png", "assets/Recumbent/Rec_Sim_Static.png", "assets/Recumbent/Rec_Sim_Modal.png", "assets/Recumbent/Rec_Des_Final.png"]
+    gallery: ["assets/Recumbent/Rec_Dec_1.png", "assets/Recumbent/Rec_Dec_2.png", "assets/Recumbent/Rec_Sim_Static1.png", "assets/Recumbent/Rec_Sim_Modal.png", "assets/Recumbent/Rec_Des_Final.png"]
   },
   {
     id: "rc-vehicle-launcher",
