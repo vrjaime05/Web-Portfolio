@@ -30,7 +30,7 @@ const PROJECTS = [
     title: "Pedal System (Accelerator, Brake, Clutch)",
     discipline: "Mechanical Design",
     software: ["SolidWorks", "ANSYS", "PrePoMax", "MATLAB"],
-    image: "assets/Pedal_system_top.jpg",
+    image: "assets/PedalBox/Pedal_system_top.jpg",
     summary: "Complete pedal system design — accelerator, brake, and clutch — for UP Racing's Formula-style competition car, backed by hand calculations and simulation.",
     challenge: "The pedal system needed to survive high pedal-force loads from a driver (2000 N used as benchmark as specified on the rulebook) under race conditions while staying lightweight and packaging within a tight pedal-box envelope.",
     approach: "Researched and justified the design with hand calculations before modeling, then used simulation and small automation programs to check the design and speed up iteration.",
@@ -44,14 +44,14 @@ const PROJECTS = [
     credits: [
       { name: "Diego Montiel Lopez", contribution: "Collaborated on the pedal system design, hand calculations, and simulation." }
     ],
-    gallery: ["assets/Pedal_System_T78.jpg", "assets/MC_Base.jpg", "assets/Sim_MC_Base.jpg", "assets/Sim_Brake_Pedal.jpg", "assets/Pedal_System.jpg"]
+    gallery: ["assets/PedalBox/Pedal_System_T78.jpg", "assets/PedalBox/MC_Base.jpg", "assets/PedalBox/Sim_MC_Base.jpg", "assets/PedalBox/Sim_Brake_Pedal.jpg", "assets/PedalBox/Pedal_System.jpg"]
   },
   {
     id: "recumbent",
     title: "Recumbent Tricycle",
     discipline: "Structural Design",
     software: ["SolidWorks", "ANSYS"],
-    image: "assets/Rec_Des_Main.jpg",
+    image: "assets/Recumbent/Rec_Des_Main.jpg",
     summary: "Design of a recumbent-style tricycle as overall project lead, including fatigue and natural frequency analysis of the frame.",
     challenge: "The frame needed to survive repeated riding loads over its expected lifetime and avoid resonating with typical riding-induced vibration frequencies.",
     approach: "Led the project end to end, from concept layout through detailed design, using fatigue and modal analysis to check the frame before committing to a final structure.",
@@ -82,7 +82,7 @@ const PROJECTS = [
   { name: "Santiago Serrano Verduzco", contribution: "Part of manufacturing crew" },
   { name: "Sergio Dávila Trejo", contribution: "Part of manufacturing crew" }
 ],
-    gallery: ["assets/Rec_Des_1.jpg", "assets/Rec_Des_2.jpg", "assets/Rec_Sim_Static.jpg", "assets/Rec_Sim_Modal.jpg", "assets/Rec_Des_Final.jpg"]
+    gallery: ["assets/Recumbent/Rec_Des_1.jpg", "assets/Recumbent/Rec_Des_2.jpg", "assets/Recumbent/Rec_Sim_Static.jpg", "assets/Recumbent/Rec_Sim_Modal.jpg", "assets/Recumbent/Rec_Des_Final.jpg"]
   },
   {
     id: "rc-vehicle-launcher",
