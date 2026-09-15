@@ -51,7 +51,7 @@ const PROJECTS = [
     title: "Recumbent Tricycle",
     discipline: "Structural Design",
     software: ["SolidWorks", "ANSYS"],
-    image: "assets/Recumbent/Rec_Dec_1.png",
+    image: "assets/Recumbent/Rec_Dec_Main.png",
     summary: "Design of a recumbent-style tricycle as overall project lead, including fatigue and natural frequency analysis of the frame.",
     challenge: "The frame needed to survive repeated riding loads over its expected lifetime and avoid resonating with typical riding-induced vibration frequencies.",
     approach: "Led the project end to end, from concept layout through detailed design, using fatigue and modal analysis to check the frame before committing to a final structure.",
@@ -82,25 +82,28 @@ const PROJECTS = [
   { name: "Santiago Serrano Verduzco", contribution: "Part of manufacturing crew" },
   { name: "Sergio Dávila Trejo", contribution: "Part of manufacturing crew" }
 ],
-    gallery: ["assets/Recumbent/Rec_Dec_2.png", PLACEHOLDER, PLACEHOLDER, PLACEHOLDER, PLACEHOLDER]
+    gallery: ["assets/Recumbent/Rec_Dec_1.png", "assets/Recumbent/Rec_Dec_2.png", "assets/Recumbent/Rec_Sim_Static.png", "assets/Recumbent/Rec_Sim_Modal.png", "assets/Recumbent/Rec_Des_Final.png"]
   },
   {
     id: "rc-vehicle-launcher",
     title: "RC Vehicle with Launcher",
     discipline: "Mechatronics",
     software: ["SolidWorks", "C++"],
-    image: PLACEHOLDER,
+    image: "assets/VRC/VRC_Main.png",
     summary: "An RC vehicle with a fully mechanical, servo-motor-controlled launcher, an integrated camera for remote operation, and tank tracks for off-road versatility.",
     challenge: "Combining a mechanical launching mechanism, a live camera feed, and tracked mobility into one remotely operated vehicle, all controlled reliably from a distance.",
     approach: "Designed the mechanical launcher and track-drive system, then integrated servo control and the camera system for remote operation.",
-    cad: "Add detail here on the CAD design of the launcher mechanism, drivetrain, and tank-track running gear, packaged around the electronics and camera mount.",
-    sim: "Add detail here on the mechanism checks and field testing used to validate the launcher and tracked drivetrain before final assembly.",
+    cad: "The design of the launching mechanism was fully done by me. It incorporates a set of rotating gears, a rack and a spring to launch small metal balls out of two barrels.",
+    sim: "There were no computational analysis simulations done for this projects, as it was mainly focus on programing and electronics. The only simulations we did were those for the motion of the launching mechanism.",
     resultStats: [
       { value: "Servo", label: "controlled launcher" },
       { value: "Tank tracks", label: "drivetrain" },
       { value: "Remote", label: "camera operation" }
     ],
-    credits: [],
-    gallery: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER, PLACEHOLDER, PLACEHOLDER]
+    credits: [
+       { name: "Diego Montiel Lopez", contribution: "Track design and programing" },
+       { name: "Santiago Serrano Verduzco", contribution: "Project planning and reports" }
+    ],
+    gallery: ["assets/VRC/VRC_Des_1.png", "assets/VRC/VRC_Des_2.png", "assets/VRC/VRC_Sim_1.png", "assets/VRC/VRC_Sim_2.png", "assets/VRC/VRC_Final.png"]
   }
 ];
