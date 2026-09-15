@@ -28,7 +28,7 @@ const PROJECTS = [
   {
     id: "pedal-system",
     title: "Pedal System (Accelerator, Brake, Clutch)",
-    discipline: ["Mechanical Design", "Structural Analysis", "Programming"],
+    discipline: "Mechanical Design",
     software: ["SolidWorks", "ANSYS", "PrePoMax", "MATLAB", "Octave"],
     image: "assets/PedalBox/Pedal_system_top.jpg",
     summary: "Complete pedal system design — accelerator, brake, and clutch — for UP Racing's Formula-style competition car, backed by hand calculations and simulation.",
@@ -49,9 +49,9 @@ const PROJECTS = [
   {
     id: "recumbent",
     title: "Recumbent Tricycle",
-    discipline: ["Structural Design","Mechanical Design", "Structural Analysis"],
+    discipline: "Structural Design",
     software: ["SolidWorks", "ANSYS", "OnShape"],
-    image: "assets/Recumbent/Rec_Dec_Main.png",
+    image: "assets/Recumbent/Rec_Des_Main.png",
     summary: "Design of a recumbent-style tricycle as overall project lead, including fatigue and natural frequency analysis of the frame.",
     challenge: "The frame needed to survive repeated riding loads over its expected lifetime and avoid resonating with typical riding-induced vibration frequencies.",
     approach: "Led the project end to end, from concept layout through detailed design, using fatigue and modal analysis to check the frame before committing to a final structure.",
@@ -87,9 +87,9 @@ const PROJECTS = [
   {
     id: "rc-vehicle-launcher",
     title: "RC Vehicle with Launcher",
-    discipline: ["Mechatronics", "Electronics", "Programming"],
+    discipline: "Mechatronics",
     software: ["SolidWorks", "C++", "Arduino IDE"],
-    image: "assets/VRC/VRC_Main.png",
+    image: "assets/VRC/VRC_Main.jpg",
     summary: "An RC vehicle with a fully mechanical, servo-motor-controlled launcher, an integrated camera for remote operation, and tank tracks for off-road versatility.",
     challenge: "Combining a mechanical launching mechanism, a live camera feed, and tracked mobility into one remotely operated vehicle, all controlled reliably from a distance.",
     approach: "Designed the mechanical launcher and track-drive system, then integrated servo control and the camera system for remote operation.",
@@ -104,6 +104,6 @@ const PROJECTS = [
        { name: "Diego Montiel Lopez", contribution: "Track design and programing" },
        { name: "Santiago Serrano Verduzco", contribution: "Project planning and reports" }
     ],
-    gallery: ["assets/VRC/VRC_Des_1.png", "assets/VRC/VRC_Des_2.png", "assets/VRC/VRC_Sim_1.png", "assets/VRC/VRC_Sim_2.png", "assets/VRC/VRC_Final.png"]
+    gallery: ["assets/VRC/VRC_Des_1.jpg", "assets/VRC/VRC_Des_2.jpg", "assets/VRC/VRC_Sim_1.jpg", "assets/VRC/VRC_Sim_2.jpg", "assets/VRC/VRC_Final.jpg"]
   }
 ];
