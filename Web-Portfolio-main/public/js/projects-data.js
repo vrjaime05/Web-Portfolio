@@ -28,8 +28,8 @@ const PROJECTS = [
   {
     id: "pedal-system",
     title: "Pedal System (Accelerator, Brake, Clutch)",
-    discipline: "Mechanical Design",
-    software: ["SolidWorks", "ANSYS", "PrePoMax", "MATLAB"],
+    discipline: ["Mechanical Design", "Structural Analysis", "Programming"],
+    software: ["SolidWorks", "ANSYS", "PrePoMax", "MATLAB", "Octave"],
     image: "assets/PedalBox/Pedal_system_top.jpg",
     summary: "Complete pedal system design — accelerator, brake, and clutch — for UP Racing's Formula-style competition car, backed by hand calculations and simulation.",
     challenge: "The pedal system needed to survive high pedal-force loads from a driver (2000 N used as benchmark as specified on the rulebook) under race conditions while staying lightweight and packaging within a tight pedal-box envelope.",
@@ -49,8 +49,8 @@ const PROJECTS = [
   {
     id: "recumbent",
     title: "Recumbent Tricycle",
-    discipline: "Structural Design",
-    software: ["SolidWorks", "ANSYS"],
+    discipline: ["Structural Design","Mechanical Design", "Structural Analysis"],
+    software: ["SolidWorks", "ANSYS", "OnShape"],
     image: "assets/Recumbent/Rec_Dec_Main.png",
     summary: "Design of a recumbent-style tricycle as overall project lead, including fatigue and natural frequency analysis of the frame.",
     challenge: "The frame needed to survive repeated riding loads over its expected lifetime and avoid resonating with typical riding-induced vibration frequencies.",
@@ -87,8 +87,8 @@ const PROJECTS = [
   {
     id: "rc-vehicle-launcher",
     title: "RC Vehicle with Launcher",
-    discipline: "Mechatronics",
-    software: ["SolidWorks", "C++"],
+    discipline: ["Mechatronics", "Electronics", "Programming"],
+    software: ["SolidWorks", "C++", "Arduino IDE"],
     image: "assets/VRC/VRC_Main.png",
     summary: "An RC vehicle with a fully mechanical, servo-motor-controlled launcher, an integrated camera for remote operation, and tank tracks for off-road versatility.",
     challenge: "Combining a mechanical launching mechanism, a live camera feed, and tracked mobility into one remotely operated vehicle, all controlled reliably from a distance.",
