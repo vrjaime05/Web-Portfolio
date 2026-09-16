@@ -114,8 +114,6 @@
 <script src="js/projects-data.js"></script>
 <script src="js/main.js"></script>
 <script>
-  document.getElementById("aboutFigure").innerHTML = ART.orthoDrawing();
-
   /* Edit this object to change what's listed under Skills & software.
      level is 1–4 and controls how many of the 4 dots are filled. */
   const SKILLS = {
@@ -145,11 +143,14 @@
       <div class="skill-row">
         <span class="skill-row__name">${item.name}</span>
         <span class="skill-dots">
-          ${[1,2,3,4].map(i => `<span class="${i <= item.level ? "is-filled" : ""}"></span>`).join("")}
+          ${[1,2,3,4].map(i => `
+            <span class="${i <= item.level ? "is-filled" : ""}"></span>
+          `).join("")}
         </span>
       </div>
     `).join("");
   }
+
   renderSkillGroup("skillsCad", SKILLS.cad);
   renderSkillGroup("skillsSim", SKILLS.sim);
   renderSkillGroup("skillsProg", SKILLS.prog);
